@@ -13,6 +13,16 @@ namespace Gentelella2.Controllers
             return View();
         }
 
+        public IActionResult Index2()
+        {
+            return View();
+        }
+
+        public IActionResult Index3()
+        {
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";

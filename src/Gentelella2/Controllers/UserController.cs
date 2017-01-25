@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Gentelella2.Controllers
 {
-    public class FormsController : Controller
+    public class UserController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()
@@ -16,32 +16,12 @@ namespace Gentelella2.Controllers
             return View();
         }
 
-        public IActionResult Form()
+        public IActionResult Contacts()
         {
             return View();
         }
 
-        public IActionResult Advanced()
-        {
-            return View();
-        }
-
-        public IActionResult Buttons()
-        {
-            return View();
-        }
-
-        public IActionResult Upload()
-        {
-            return View();
-        }
-
-        public IActionResult Validation()
-        {
-            return View();
-        }
-
-        public IActionResult Wizards()
+        public IActionResult Profile()
         {
             return View();
         }
