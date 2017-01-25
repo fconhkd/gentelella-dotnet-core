@@ -8,15 +8,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Gentelella2.Controllers
 {
-    public class LayoutsController : Controller
+    public class ChartsController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Sidebar()
-        {
-            return View();
-        }
-
-        public IActionResult Footer()
+        public IActionResult Index()
         {
             return View();
         }
