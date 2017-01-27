@@ -11,7 +11,12 @@ namespace Gentelella2.Controllers
     public class FormsController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Index()
+        public IActionResult Advanced()
+        {
+            return View();
+        }
+
+        public IActionResult Buttons()
         {
             return View();
         }
@@ -21,12 +26,7 @@ namespace Gentelella2.Controllers
             return View();
         }
 
-        public IActionResult Advanced()
-        {
-            return View();
-        }
-
-        public IActionResult Buttons()
+        public IActionResult Index()
         {
             return View();
         }

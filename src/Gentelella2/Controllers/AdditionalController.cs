@@ -11,7 +11,22 @@ namespace Gentelella2.Controllers
     public class AdditionalController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Index()
+        public IActionResult Contacts()
+        {
+            return View();
+        }
+
+        public IActionResult ECommerce()
+        {
+            return View();
+        }
+
+        public IActionResult ProjectDetail()
+        {
+            return View();
+        }
+
+        public IActionResult Projects()
         {
             return View();
         }

@@ -11,11 +11,6 @@ namespace Gentelella2.Controllers
     public class ElementsController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Index()
-        {
-            return View();
-        }
-
         public IActionResult MediaGallery()
         {
             return View();
@@ -37,6 +32,11 @@ namespace Gentelella2.Controllers
         }
 
         public IActionResult Inbox()
+        {
+            return View();
+        }
+
+        public IActionResult Index()
         {
             return View();
         }

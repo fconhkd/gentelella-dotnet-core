@@ -11,14 +11,15 @@ namespace Gentelella2.Controllers
     public class TablesController : Controller
     {
         // GET: /<controller>/
+        public IActionResult Dynamic()
+        {
+            return View();
+        }
+
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Dynamic()
-        {
-            return View();
-        }
     }
 }

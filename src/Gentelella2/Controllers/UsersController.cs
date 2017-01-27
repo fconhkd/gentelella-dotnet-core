@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Gentelella2.Controllers
 {
-    public class UserController : Controller
+    public class UsersController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()
@@ -16,14 +16,15 @@ namespace Gentelella2.Controllers
             return View();
         }
 
-        public IActionResult Contacts()
+        public IActionResult Users()
         {
             return View();
         }
 
-        public IActionResult Profile()
+        public IActionResult Login()
         {
             return View();
         }
+
     }
 }

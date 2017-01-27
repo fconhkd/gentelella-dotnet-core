@@ -11,14 +11,15 @@ namespace Gentelella2.Controllers
     public class LayoutController : Controller
     {
         // GET: /<controller>/
+        public IActionResult Footer()
+        {
+            return View();
+        }
+
         public IActionResult Sidebar()
         {
             return View();
         }
 
-        public IActionResult Footer()
-        {
-            return View();
-        }
     }
 }
