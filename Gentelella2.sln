@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.352
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gentelella2", "src\Gentelella2.csproj", "{00D35797-DAD9-4350-A6B9-804280DE4F04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gentelella2", "Gentelella2.csproj", "{97421165-9D65-442B-9495-FE829983FF62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{00D35797-DAD9-4350-A6B9-804280DE4F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00D35797-DAD9-4350-A6B9-804280DE4F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00D35797-DAD9-4350-A6B9-804280DE4F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00D35797-DAD9-4350-A6B9-804280DE4F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97421165-9D65-442B-9495-FE829983FF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97421165-9D65-442B-9495-FE829983FF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97421165-9D65-442B-9495-FE829983FF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97421165-9D65-442B-9495-FE829983FF62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2A4B7DE3-B440-404C-A820-C858ECA39675}
+		SolutionGuid = {91A46906-19A5-48F7-9440-7F0C0CA4B909}
 	EndGlobalSection
 EndGlobal
