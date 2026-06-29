@@ -1,7 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Gentelella2.Controllers
@@ -10,17 +6,27 @@ namespace Gentelella2.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return Redirect("~/gentelella/production/index.html");
         }
 
         public IActionResult Index2()
         {
-            return View();
+            return Redirect("~/gentelella/production/index2.html");
         }
 
         public IActionResult Index3()
         {
-            return View();
+            return Redirect("~/gentelella/production/index3.html");
+        }
+
+        public IActionResult Index4()
+        {
+            return Redirect("~/gentelella/production/index4.html");
+        }
+
+        public IActionResult Error()
+        {
+            return Redirect("~/gentelella/production/page_500.html");
         }
     }
 }

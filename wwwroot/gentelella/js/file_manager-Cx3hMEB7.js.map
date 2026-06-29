@@ -1,0 +1,1 @@
+{"version":3,"mappings":";4DACwC,gBAAE,SAA1C,OAAO,uFAA2B,OAAQ,qBAAsB","names":[],"ignoreList":[],"sources":["../../production/file_manager.html?html-proxy&index=1.js"],"sourcesContent":["\nimport('/src/v4/file-manager.js').then(({ initFileManager }) => initFileManager());\n"],"file":"file_manager-Cx3hMEB7.js"}

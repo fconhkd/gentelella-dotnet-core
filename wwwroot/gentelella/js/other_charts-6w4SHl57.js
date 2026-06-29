@@ -1,0 +1,1 @@
+import"./main-v4-DdQ0KDzD.js";var r=["var(--border-color-light)","rgba(26,187,156,0.25)","rgba(26,187,156,0.5)","rgba(26,187,156,0.75)","var(--primary)"],a=document.getElementById("heatmap"),o="";for(let t=0;140>t;t++)o+=`<span style="aspect-ratio:1;background:${r[Math.floor(5*Math.random())]};border-radius:2px"></span>`;a.innerHTML=o;

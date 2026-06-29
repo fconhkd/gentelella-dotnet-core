@@ -1,49 +1,42 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Gentelella2.Controllers
 {
     public class FormsController : Controller
     {
-        // GET: /<controller>/
         public IActionResult Advanced()
         {
-            return View();
+            return Redirect("~/gentelella/production/form_advanced.html");
         }
 
         public IActionResult Buttons()
         {
-            return View();
+            return Redirect("~/gentelella/production/form_buttons.html");
         }
 
         public IActionResult Form()
         {
-            return View();
+            return Redirect("~/gentelella/production/form.html");
         }
 
         public IActionResult Index()
         {
-            return View();
+            return Redirect("~/gentelella/production/form.html");
         }
 
         public IActionResult Upload()
         {
-            return View();
+            return Redirect("~/gentelella/production/form_upload.html");
         }
 
         public IActionResult Validation()
         {
-            return View();
+            return Redirect("~/gentelella/production/form_validation.html");
         }
 
         public IActionResult Wizard()
         {
-            return View();
+            return Redirect("~/gentelella/production/form_wizards.html");
         }
     }
 }
